@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background-color: #fafafa;
+    text-align: center;
+    width: 100%;
+    padding: 35px 0;
+
+}
+header p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    
+}
+.bold{
+    font-weight: bold;
+}
+nav{
+    text-align: center;
+    background-color: #292929;
+    padding: 20px 0;
+}
+nav ul{
+    
+}
+nav ul li{
+    display: inline-block;
+}
+.arraw{
+    color: #b1b1b1;
+    display: none;
+}
+nav ul li a{
+    color: #b1b1b1;
+    text-decoration: none;
+    padding: 0px 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.active{
+    color: #fff;
+}
+.slider{
+    width: 100%;
+    height: 35vh;
+    background: rgb(17,55,63);
+    background: linear-gradient(90deg, rgba(17,55,63,1) 0%, rgba(46,81,79,1) 30%, rgba(138,163,128,1) 50%, rgba(46,81,79,1) 70%, rgba(17,55,63,1) 100%);
+}
+.c2x{
+    text-align: center;
+    font-size: 13px;
+    padding: 20px;
+    background-color: #292929;
+}
+.c2x p{
+    color: #b1b1b1;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.btn{
+    background-color: #35b4eb;
+    padding: 7px 15px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 10px;
+}
+.service{
+    display: flex;
+    width: 100%;
+    padding: 70px 0;
+    font-family: 'Open Sans';
+    flex-wrap: wrap;
+}
+.service .box{
+    width: 33.333333%;
+    text-align: center;
+    padding: 0 45px;
+}
+.img{
+    display: inline-block;
+    padding: 4px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px -1px black;
+}
+.img i{
+    padding: 20px 22px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #35b4eb;
+}
+.service h3{
+
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+.service .discription{
+    font-size: 13px;
+    color: #b1b1b1;
+}
+.midheading{
+    background: rgb(243,243,243);
+    background: linear-gradient(0deg, rgba(243,243,243,1) 0%, rgba(246,246,246,1) 20%, rgba(255,255,255,1) 50%, rgba(246,246,246,1) 80%, rgba(243,243,243,1) 100%);
+}
+
+.midheading .container{
+    width: 80%;
+    margin:0 auto;
+    padding: 70px 0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+
+}
+.midheading .container h2{
+    padding: 10px;
+}
+.midheading .container h3{
+    padding: 10px;
+    color: #b1b1b1;
+
+}
+.midheading .container hr{
+    color: #e2e2e2;
+    background-color: #e2e2e2;
+    border: 1px solid;
+
+}
+.blog{
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content{
+    width: 49%;
+    display: flex;
+    padding: 10px 5px;
+}
+.content .content_img{
+    width: 33.333%;
+    height: 120px;
+    background: rgb(215,8,8);
+background: linear-gradient(90deg, rgba(138,163,128,1) 0%, rgba(17,55,63,1) 100%);;
+}
+.content .content_txt{
+  padding-left: 25px;
+  width: 66.6666%;
+  text-align: justify;
+}
+.content .content_txt p{
+    padding-top: 20px;
+    color: #b1b1b1;
+
+
+}
+.calltoaction{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: #35b4eb;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    
+}
+.calltoaction h3{
+    padding: 0 10px;
+}
+a{
+    text-decoration: none;
+}
+
+.coin{
+    text-align: center;
+    color: black;
+    background: #fff;
+    padding: 5px 20px ;
+    font-size: 14px;
+}
+/* Footer */
+footer{
+    background-color: #fafafa;
+    padding: 70px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.link{
+    width: 25%;
+}
+.link ul{
+    list-style: none;
+    padding-top: 10px;
+
+}
+.oherlink{
+    width: 25%;
+}
+.oherlink ul{
+    list-style: none;
+    padding-top: 10px;
+    
+
+}
+footer p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+footer ul li{
+    padding: 5px 0;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #b1b1b1;
+
+}
+.contact{
+    width: 50%;
+
+}
+.contact .input{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.contact .input input{
+    width: 48%;
+    padding: 5px;
+}
+.contact .textarea{
+    padding-top: 10px;
+}
+.contact textarea{
+    width: 100%;
+    padding: 10px;
+}
+.sendbtn{
+    width: 120px;
+    text-align: center;
+    background-color: #3f3f3f;
+    padding: 7px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5px;
+
+}
+.sendbtn a{
+    
+    text-decoration: none;
+    color: #fff;
+
+
+    
+}
+.sociallink{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.sociallink .link{
+    width: 100%;
+    text-align: center;
+    color: #b1b1b1;
+    padding: 10px;
+  
+    
+}
+.sociallink .link i{
+    padding: 5px 10px;
+}
+.sociallink .copyright{
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: #b1b1b1;
+}
+.sociallink .copyright span{
+    padding-left: 20px;
+}
+
+@media only screen and (max-width: 1199px) and (min-width:1024px){
+    body{
+        width: 100%;
+    }  
+}
+@media only screen and (max-width: 1023px) and (min-width:768px){
+    body{
+        width: 100%;
+    }  
+
+    .content{
+        width: 100%;
+        
+    }
+    .link{
+        width: 50%;
+        text-align: center;
+    }
+    .oherlink{
+        width: 50%;
+        text-align: center;
+
+    }
+    .contact{
+        width: 100%;
+    
+    }
+}
+
+@media only screen and (max-width: 767px){
+    body{
+        width: 100%;
+    }  
+    .content{
+        width: 100%;
+       
+        
+    }
+    .c2x p{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .link{
+        width: 100%;
+        text-align: center;
+    }
+    .oherlink{
+        width: 100%;
+        text-align: center;
+
+    }
+    .contact{
+        width: 100%;
+    
+        
+    }
+    .service .box{
+        width: 100%;
+        padding: 20px 0;
+        
+    }
+    .blog{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .midheading .container{
+        width: 100%;
+    }
+    nav ul{
+    display: none;
+    }
+    .arraw{
+    
+        display: block;
+    }
+    nav{
+        text-align: start;
+        padding-left: 20px;
+    }
+
+}
