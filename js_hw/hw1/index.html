@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="text" onchange="add()">
+    <button id="clr" onclick="clr()">Clear</button>
+    <button id="clr" onclick="last()">Remove Last</button>
+    <button id="clr" onclick="first()">Remove First</button>
+    <button id="clr" onclick="joinall()">Join All</button>
+    <button id="clr" onclick="sortArr()">Sort</button>
+
+    <div id="text1">Current Array is :</div>
+    <div id="ara"></div>
+    <script>
+        let a = [1,15,12,13,14,19,35]; 
+        let bodytext = document.getElementById("text1");
+        document.getElementById("ara").innerHTML = "["+a+"]";
+        
+        function last(){
+            a.pop();
+        bodytext.innerHTML= "Current Array is :";
+
+            document.getElementById("ara").innerHTML = "["+a+"]";
+
+        } 
+        function first(){
+            a.shift();
+        bodytext.innerHTML= "Current Array is :";
+
+            document.getElementById("ara").innerHTML = "["+a+"]";
+
+        } 
+        function joinall(){
+            let c = a.join("-");
+            bodytext.innerHTML = "Array join by -";
+            document.getElementById("ara").innerHTML = c;
+
+        }
+        function add(){
+           let data = document.getElementById("text");
+
+            a.push(data.value);
+            console.log(a);
+        bodytext.innerHTML= "Current Array is :";
+
+            document.getElementById("ara").innerHTML = "["+a+"]";
+            
+        }
+        function clr(){
+            a = [];
+            console.log(a);
+        bodytext.innerHTML= "Current Array is :";
+
+            document.getElementById("ara").innerHTML = "["+a+"]";
+        }
+        function sortArr(){
+            a.sort(function(a,b){return a-b});
+            bodytext.innerHTML = "Sorted Array:";
+
+            document.getElementById("ara").innerHTML = "["+a+"]";
+        }
+
+        
+        
+    </script>
+
+</body>
+</html>
